@@ -18,9 +18,6 @@ void setup()
 
 void loop()
 {
-  String transmitStrIn = "i34.48";
-  String transmitStrOut = "o23.47";
-  String transmitStrHeate = "h12.98";
   String recieveStr =  "";
   
   while(mySerial.available()) {
